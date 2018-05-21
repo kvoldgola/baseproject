@@ -1,174 +1,41 @@
-%=========================[TASK 175]=========================
+%=========================[TASK 32]=========================
 
 
-\begin{task}{Найти предел}
+\begin{task}{
+    Найти $AB$ и $BA$.
+}
 %                   -----[variant 1]-----
 \var{
-  \lim_{x \to -8}
-  \left(
-  \frac{1}{x + 8} + \frac{16}{x^{2} - 64}
-  \right)
-}
-{
-\ans{ -\frac{1}{16} }
-}
-{
-}
-%                   -----[variant 2]-----
-\var{
-  \lim_{x \to1}
-  \left(
-  \frac{1}{x - 1} - \frac{3}{x^{3} - 1}
-  \right)
-}
-{
-\ans{ 1 }
-}
-{
-}
-%                   -----[variant 3]-----
-\var{
-  \lim_{x \to2}
-  \left(
-  \frac{1}{x - 2} - \frac{12}{x^{3} - 8}
-  \right)
-}
-{
-\ans{ \frac{1}{2} }
-}
-{
-}
-%                   -----[variant 4]-----
-\var{
-  \lim_{x \to4}
-  \left(
-  \frac{1}{x - 4} - \frac{48}{x^{3} - 64}
-  \right)
-}
-{
-\ans{ \frac{1}{4} }
-}
-{
-}
-\end{task}
-
-
-
-
-%=========================[TASK 180]=========================
-
-
-\begin{task}{Найти предел.}
-%                   -----[variant 1]-----
-\var{
-  \lim_{x\to 0}
-  \frac{\tg 10x - \sin 10x} {x^{3}}
+    A =
+    \begin{pmatrix}
+        3 & 2 & 1 \\
+        0 & 1 & 2 \\
+        0 & 1 & 5
+    \end{pmatrix}
+    ,\quad
+    B =
+    \begin{pmatrix}
+        -4 & -5 & 1 \\
+        -2 & 4 & 2 \\
+        0 & -2 & 1
+    \end{pmatrix}
 }
 {
 \ans{
-  500
+    AB=
+    \begin{pmatrix}
+        -16 & -9 & 8 \\
+        -2 & 0 & 4 \\
+        -2 & -6 & 7
+    \end{pmatrix}
+    ,\quad
+    BA=
+    \begin{pmatrix}
+        -12 & -12 & -9 \\
+        -6 & 2 & 16 \\
+        0 & -1 & 1
+    \end{pmatrix}
 }
-}
-{
-}
-%                   -----[variant 2]-----
-\var{
-  \lim_{x\to 0}
-  \frac{\tg 2x - \sin 2x} {x^{3}}
-}
-{
-\ans{
-  4
-}
-}
-{
-}
-%                   -----[variant 3]-----
-\var{
-  \lim_{x\to 0}
-  \frac{\cos 14x - \cos 13x} {3x\sin 7x}
-}
-{
-\ans{
-  -\frac{9}{14}
-}
-}
-{
-}
-%                   -----[variant 4]-----
-\var{
-  \lim_{x\to 0}
-  \frac{\tg 5x - \sin 5x} {x^{3}}
-}
-{
-\ans{
-  \frac{125}{2}
-}
-}
-{
-}
-\end{task}
-
-
-
-
-%=========================[TASK 182]=========================
-
-
-\begin{task}{Найти предел.}
-%                   -----[variant 1]-----
-\var{
-    \lim_{x \to -3}
-    \frac{
-        e^x - e^{-3}
-    }{
-        8x^{2} + 27x + 9
-    }
-}
-{
-\ans{-\frac{e^{-3}}{21}}
-}
-{
-}
-%                   -----[variant 2]-----
-\var{
-    \lim_{x \to -1}
-    \frac{
-        e^x - e^{-1}
-    }{
-        8x^{2} + 11x + 3
-    }
-}
-{
-\ans{-\frac{e^{-1}}{5}}
-}
-{
-}
-%                   -----[variant 3]-----
-\var{
-    \lim_{x \to -1}
-    \frac{
-        e^x - e^{-1}
-    }{
-        -4x^{2} - x + 3
-    }
-}
-{
-\ans{\frac{e^{-1}}{7}}
-}
-{
-}
-%                   -----[variant 4]-----
-\var{
-    \lim_{x \to -5}
-    \frac{
-        e^x - e^{-5}
-    }{
-        -2x^{2} - 13x - 15
-    }
-}
-{
-\ans{\frac{e^{-5}}{7}}
 }
 {
 }

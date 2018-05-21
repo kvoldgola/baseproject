@@ -1,0 +1,4 @@
+C:\baseproject\.gitattributes - 84898802
+C:\baseproject\CRC.txt - c340ae2c
+C:\baseproject\README.md - 9d118b7b
+
